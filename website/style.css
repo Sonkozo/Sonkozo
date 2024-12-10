@@ -1,0 +1,254 @@
+body {
+    background-color: #343a40;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background-size: cover;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.service-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.service-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.service-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1a8d35;
+}
+
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+    display: none;
+}
+
+.chatbot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chatbot-close-btn {
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.chatbot-body {
+    padding: 10px;
+}
+
+.chatbot-messages {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.chatbot-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#chatbot-input-field {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#chatbot-send-btn {
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.user-message {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.chatbot-response {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+CSS
+/* ... existing code ... */
+/* Parallax Background */
+.parallax-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.parallax-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sub_heading{
+    color: seashell;
+}
+.heading {
+    color: #ffc107
+}
+.layer-1 {
+    background-image: url('images/layer-1.jpg');
+}
+
+.layer-2 {
+    background-image: url('images/layer-2.jpeg');
+}
+
+.layer-3 {
+    background-image: url('images/layer-3.jpeg');
+}
+
+/* Font and Font Color */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+}
+
+a {
+    color: #337ab7;
+}
+
+a:hover {
+    color:#ffc107;
+}
+.scroll-container {
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+}
+
+.scroll-content {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+}
+
+.item {
+    flex-shrink: 0;
+    width: 200px;
+    height: 100%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.service_image{
+
+    width: 100%;
+    height:60%;
+}
